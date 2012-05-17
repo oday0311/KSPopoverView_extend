@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62C1B4CC1565463D0084249F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C1B4CB1565463D0084249F /* UIKit.framework */; };
+		62C1B4CE1565463D0084249F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C1B4CD1565463D0084249F /* Foundation.framework */; };
+		62C1B4D41565463D0084249F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62C1B4D21565463D0084249F /* InfoPlist.strings */; };
+		62C1B4D61565463D0084249F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C1B4D51565463D0084249F /* main.m */; };
+		62C1B4DA1565463D0084249F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C1B4D91565463D0084249F /* AppDelegate.m */; };
+		62C1B4DD1565463D0084249F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C1B4DC1565463D0084249F /* MainViewController.m */; };
+		62C1B4E01565463D0084249F /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C1B4DF1565463D0084249F /* FlipsideViewController.m */; };
+		62C1B4E31565463D0084249F /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62C1B4E11565463D0084249F /* MainViewController.xib */; };
+		62C1B4E61565463D0084249F /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62C1B4E41565463D0084249F /* FlipsideViewController.xib */; };
+		62C1B4EE1565463D0084249F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C1B4ED1565463D0084249F /* SenTestingKit.framework */; };
+		62C1B4EF1565463D0084249F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C1B4CB1565463D0084249F /* UIKit.framework */; };
+		62C1B4F01565463D0084249F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C1B4CD1565463D0084249F /* Foundation.framework */; };
+		62C1B4F81565463D0084249F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62C1B4F61565463D0084249F /* InfoPlist.strings */; };
+		62C1B4FB1565463D0084249F /* testKSPopOverViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C1B4FA1565463D0084249F /* testKSPopOverViewTests.m */; };
+		62C1B5131565464F0084249F /* KSCGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C1B5061565464F0084249F /* KSCGUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		62C1B5141565464F0084249F /* KSPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C1B5081565464F0084249F /* KSPopoverView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		62C1B5151565464F0084249F /* KSPopoverViewButtonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C1B50A1565464F0084249F /* KSPopoverViewButtonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		62C1B5161565464F0084249F /* KSPopoverViewButtonLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C1B50C1565464F0084249F /* KSPopoverViewButtonLabel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		62C1B5171565464F0084249F /* KSPopoverViewButtonOnOff.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C1B50E1565464F0084249F /* KSPopoverViewButtonOnOff.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		62C1B5181565464F0084249F /* KSPopoverViewParentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C1B5101565464F0084249F /* KSPopoverViewParentButton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		62C1B5191565464F0084249F /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C1B5121565464F0084249F /* UIColor-Expanded.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		62C1B520156547170084249F /* buttonbg@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C1B51E156547170084249F /* buttonbg@2x~iphone.png */; };
+		62C1B521156547170084249F /* buttonbg~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C1B51F156547170084249F /* buttonbg~iphone.png */; };
+		62C1B5271565488D0084249F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C1B5261565488D0084249F /* QuartzCore.framework */; };
+		62C1B5291565490C0084249F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C1B5281565490C0084249F /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62C1B4F11565463D0084249F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62C1B4BE1565463D0084249F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62C1B4C61565463D0084249F;
+			remoteInfo = testKSPopOverView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62C1B4C71565463D0084249F /* testKSPopOverView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testKSPopOverView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62C1B4CB1565463D0084249F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62C1B4CD1565463D0084249F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62C1B4D11565463D0084249F /* testKSPopOverView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testKSPopOverView-Info.plist"; sourceTree = "<group>"; };
+		62C1B4D31565463D0084249F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62C1B4D51565463D0084249F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62C1B4D71565463D0084249F /* testKSPopOverView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testKSPopOverView-Prefix.pch"; sourceTree = "<group>"; };
+		62C1B4D81565463D0084249F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62C1B4D91565463D0084249F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62C1B4DB1565463D0084249F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		62C1B4DC1565463D0084249F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		62C1B4DE1565463D0084249F /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		62C1B4DF1565463D0084249F /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		62C1B4E21565463D0084249F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		62C1B4E51565463D0084249F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+		62C1B4EC1565463D0084249F /* testKSPopOverViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testKSPopOverViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62C1B4ED1565463D0084249F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		62C1B4F51565463D0084249F /* testKSPopOverViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testKSPopOverViewTests-Info.plist"; sourceTree = "<group>"; };
+		62C1B4F71565463D0084249F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62C1B4F91565463D0084249F /* testKSPopOverViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testKSPopOverViewTests.h; sourceTree = "<group>"; };
+		62C1B4FA1565463D0084249F /* testKSPopOverViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testKSPopOverViewTests.m; sourceTree = "<group>"; };
+		62C1B5051565464F0084249F /* KSCGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCGUtils.h; sourceTree = "<group>"; };
+		62C1B5061565464F0084249F /* KSCGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCGUtils.m; sourceTree = "<group>"; };
+		62C1B5071565464F0084249F /* KSPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSPopoverView.h; sourceTree = "<group>"; };
+		62C1B5081565464F0084249F /* KSPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSPopoverView.m; sourceTree = "<group>"; };
+		62C1B5091565464F0084249F /* KSPopoverViewButtonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSPopoverViewButtonBase.h; sourceTree = "<group>"; };
+		62C1B50A1565464F0084249F /* KSPopoverViewButtonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSPopoverViewButtonBase.m; sourceTree = "<group>"; };
+		62C1B50B1565464F0084249F /* KSPopoverViewButtonLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSPopoverViewButtonLabel.h; sourceTree = "<group>"; };
+		62C1B50C1565464F0084249F /* KSPopoverViewButtonLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSPopoverViewButtonLabel.m; sourceTree = "<group>"; };
+		62C1B50D1565464F0084249F /* KSPopoverViewButtonOnOff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSPopoverViewButtonOnOff.h; sourceTree = "<group>"; };
+		62C1B50E1565464F0084249F /* KSPopoverViewButtonOnOff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSPopoverViewButtonOnOff.m; sourceTree = "<group>"; };
+		62C1B50F1565464F0084249F /* KSPopoverViewParentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSPopoverViewParentButton.h; sourceTree = "<group>"; };
+		62C1B5101565464F0084249F /* KSPopoverViewParentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSPopoverViewParentButton.m; sourceTree = "<group>"; };
+		62C1B5111565464F0084249F /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		62C1B5121565464F0084249F /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
+		62C1B51E156547170084249F /* buttonbg@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonbg@2x~iphone.png"; sourceTree = "<group>"; };
+		62C1B51F156547170084249F /* buttonbg~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonbg~iphone.png"; sourceTree = "<group>"; };
+		62C1B5261565488D0084249F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		62C1B5281565490C0084249F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62C1B4C41565463D0084249F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C1B5291565490C0084249F /* CoreGraphics.framework in Frameworks */,
+				62C1B5271565488D0084249F /* QuartzCore.framework in Frameworks */,
+				62C1B4CC1565463D0084249F /* UIKit.framework in Frameworks */,
+				62C1B4CE1565463D0084249F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62C1B4E81565463D0084249F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C1B4EE1565463D0084249F /* SenTestingKit.framework in Frameworks */,
+				62C1B4EF1565463D0084249F /* UIKit.framework in Frameworks */,
+				62C1B4F01565463D0084249F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62C1B4BC1565463D0084249F = {
+			isa = PBXGroup;
+			children = (
+				62C1B5281565490C0084249F /* CoreGraphics.framework */,
+				62C1B5261565488D0084249F /* QuartzCore.framework */,
+				62C1B4CF1565463D0084249F /* testKSPopOverView */,
+				62C1B4F31565463D0084249F /* testKSPopOverViewTests */,
+				62C1B4CA1565463D0084249F /* Frameworks */,
+				62C1B4C81565463D0084249F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62C1B4C81565463D0084249F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62C1B4C71565463D0084249F /* testKSPopOverView.app */,
+				62C1B4EC1565463D0084249F /* testKSPopOverViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62C1B4CA1565463D0084249F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62C1B4CB1565463D0084249F /* UIKit.framework */,
+				62C1B4CD1565463D0084249F /* Foundation.framework */,
+				62C1B4ED1565463D0084249F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62C1B4CF1565463D0084249F /* testKSPopOverView */ = {
+			isa = PBXGroup;
+			children = (
+				62C1B5041565464F0084249F /* KSPopoverView */,
+				62C1B4D81565463D0084249F /* AppDelegate.h */,
+				62C1B4D91565463D0084249F /* AppDelegate.m */,
+				62C1B4DB1565463D0084249F /* MainViewController.h */,
+				62C1B4DC1565463D0084249F /* MainViewController.m */,
+				62C1B4DE1565463D0084249F /* FlipsideViewController.h */,
+				62C1B4DF1565463D0084249F /* FlipsideViewController.m */,
+				62C1B4E11565463D0084249F /* MainViewController.xib */,
+				62C1B4E41565463D0084249F /* FlipsideViewController.xib */,
+				62C1B4D01565463D0084249F /* Supporting Files */,
+			);
+			path = testKSPopOverView;
+			sourceTree = "<group>";
+		};
+		62C1B4D01565463D0084249F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62C1B4D11565463D0084249F /* testKSPopOverView-Info.plist */,
+				62C1B4D21565463D0084249F /* InfoPlist.strings */,
+				62C1B4D51565463D0084249F /* main.m */,
+				62C1B4D71565463D0084249F /* testKSPopOverView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62C1B4F31565463D0084249F /* testKSPopOverViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				62C1B4F91565463D0084249F /* testKSPopOverViewTests.h */,
+				62C1B4FA1565463D0084249F /* testKSPopOverViewTests.m */,
+				62C1B4F41565463D0084249F /* Supporting Files */,
+			);
+			path = testKSPopOverViewTests;
+			sourceTree = "<group>";
+		};
+		62C1B4F41565463D0084249F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62C1B4F51565463D0084249F /* testKSPopOverViewTests-Info.plist */,
+				62C1B4F61565463D0084249F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62C1B5041565464F0084249F /* KSPopoverView */ = {
+			isa = PBXGroup;
+			children = (
+				62C1B51E156547170084249F /* buttonbg@2x~iphone.png */,
+				62C1B51F156547170084249F /* buttonbg~iphone.png */,
+				62C1B5051565464F0084249F /* KSCGUtils.h */,
+				62C1B5061565464F0084249F /* KSCGUtils.m */,
+				62C1B5071565464F0084249F /* KSPopoverView.h */,
+				62C1B5081565464F0084249F /* KSPopoverView.m */,
+				62C1B5091565464F0084249F /* KSPopoverViewButtonBase.h */,
+				62C1B50A1565464F0084249F /* KSPopoverViewButtonBase.m */,
+				62C1B50B1565464F0084249F /* KSPopoverViewButtonLabel.h */,
+				62C1B50C1565464F0084249F /* KSPopoverViewButtonLabel.m */,
+				62C1B50D1565464F0084249F /* KSPopoverViewButtonOnOff.h */,
+				62C1B50E1565464F0084249F /* KSPopoverViewButtonOnOff.m */,
+				62C1B50F1565464F0084249F /* KSPopoverViewParentButton.h */,
+				62C1B5101565464F0084249F /* KSPopoverViewParentButton.m */,
+				62C1B5111565464F0084249F /* UIColor-Expanded.h */,
+				62C1B5121565464F0084249F /* UIColor-Expanded.m */,
+			);
+			path = KSPopoverView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62C1B4C61565463D0084249F /* testKSPopOverView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62C1B4FE1565463D0084249F /* Build configuration list for PBXNativeTarget "testKSPopOverView" */;
+			buildPhases = (
+				62C1B4C31565463D0084249F /* Sources */,
+				62C1B4C41565463D0084249F /* Frameworks */,
+				62C1B4C51565463D0084249F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testKSPopOverView;
+			productName = testKSPopOverView;
+			productReference = 62C1B4C71565463D0084249F /* testKSPopOverView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62C1B4EB1565463D0084249F /* testKSPopOverViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62C1B5011565463D0084249F /* Build configuration list for PBXNativeTarget "testKSPopOverViewTests" */;
+			buildPhases = (
+				62C1B4E71565463D0084249F /* Sources */,
+				62C1B4E81565463D0084249F /* Frameworks */,
+				62C1B4E91565463D0084249F /* Resources */,
+				62C1B4EA1565463D0084249F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62C1B4F21565463D0084249F /* PBXTargetDependency */,
+			);
+			name = testKSPopOverViewTests;
+			productName = testKSPopOverViewTests;
+			productReference = 62C1B4EC1565463D0084249F /* testKSPopOverViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62C1B4BE1565463D0084249F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 62C1B4C11565463D0084249F /* Build configuration list for PBXProject "testKSPopOverView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 62C1B4BC1565463D0084249F;
+			productRefGroup = 62C1B4C81565463D0084249F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62C1B4C61565463D0084249F /* testKSPopOverView */,
+				62C1B4EB1565463D0084249F /* testKSPopOverViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62C1B4C51565463D0084249F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C1B4D41565463D0084249F /* InfoPlist.strings in Resources */,
+				62C1B4E31565463D0084249F /* MainViewController.xib in Resources */,
+				62C1B4E61565463D0084249F /* FlipsideViewController.xib in Resources */,
+				62C1B520156547170084249F /* buttonbg@2x~iphone.png in Resources */,
+				62C1B521156547170084249F /* buttonbg~iphone.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62C1B4E91565463D0084249F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C1B4F81565463D0084249F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62C1B4EA1565463D0084249F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62C1B4C31565463D0084249F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C1B4D61565463D0084249F /* main.m in Sources */,
+				62C1B4DA1565463D0084249F /* AppDelegate.m in Sources */,
+				62C1B4DD1565463D0084249F /* MainViewController.m in Sources */,
+				62C1B4E01565463D0084249F /* FlipsideViewController.m in Sources */,
+				62C1B5131565464F0084249F /* KSCGUtils.m in Sources */,
+				62C1B5141565464F0084249F /* KSPopoverView.m in Sources */,
+				62C1B5151565464F0084249F /* KSPopoverViewButtonBase.m in Sources */,
+				62C1B5161565464F0084249F /* KSPopoverViewButtonLabel.m in Sources */,
+				62C1B5171565464F0084249F /* KSPopoverViewButtonOnOff.m in Sources */,
+				62C1B5181565464F0084249F /* KSPopoverViewParentButton.m in Sources */,
+				62C1B5191565464F0084249F /* UIColor-Expanded.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62C1B4E71565463D0084249F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C1B4FB1565463D0084249F /* testKSPopOverViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62C1B4F21565463D0084249F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62C1B4C61565463D0084249F /* testKSPopOverView */;
+			targetProxy = 62C1B4F11565463D0084249F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62C1B4D21565463D0084249F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62C1B4D31565463D0084249F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		62C1B4E11565463D0084249F /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62C1B4E21565463D0084249F /* en */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+		62C1B4E41565463D0084249F /* FlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62C1B4E51565463D0084249F /* en */,
+			);
+			name = FlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+		62C1B4F61565463D0084249F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62C1B4F71565463D0084249F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62C1B4FC1565463D0084249F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62C1B4FD1565463D0084249F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62C1B4FF1565463D0084249F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testKSPopOverView/testKSPopOverView-Prefix.pch";
+				INFOPLIST_FILE = "testKSPopOverView/testKSPopOverView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		62C1B5001565463D0084249F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testKSPopOverView/testKSPopOverView-Prefix.pch";
+				INFOPLIST_FILE = "testKSPopOverView/testKSPopOverView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		62C1B5021565463D0084249F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testKSPopOverView.app/testKSPopOverView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testKSPopOverView/testKSPopOverView-Prefix.pch";
+				INFOPLIST_FILE = "testKSPopOverViewTests/testKSPopOverViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		62C1B5031565463D0084249F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testKSPopOverView.app/testKSPopOverView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testKSPopOverView/testKSPopOverView-Prefix.pch";
+				INFOPLIST_FILE = "testKSPopOverViewTests/testKSPopOverViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62C1B4C11565463D0084249F /* Build configuration list for PBXProject "testKSPopOverView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62C1B4FC1565463D0084249F /* Debug */,
+				62C1B4FD1565463D0084249F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62C1B4FE1565463D0084249F /* Build configuration list for PBXNativeTarget "testKSPopOverView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62C1B4FF1565463D0084249F /* Debug */,
+				62C1B5001565463D0084249F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62C1B5011565463D0084249F /* Build configuration list for PBXNativeTarget "testKSPopOverViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62C1B5021565463D0084249F /* Debug */,
+				62C1B5031565463D0084249F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62C1B4BE1565463D0084249F /* Project object */;
+}

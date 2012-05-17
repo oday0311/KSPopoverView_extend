@@ -1,5 +1,14 @@
 KSPopoverView_extend
 ====================
+
+2012-5-17
+
+
+extend to finish Dropdown
+ 
+oday0311@hotmail.com
+==========================
+
 *** KSPopoverView ***
 
 KSPopoverView is an iOS view controller that a user can flick & select the menu.
@@ -17,7 +26,3 @@ http://cielo.rojo.jp
 
 ** License **
 The new BSD license
-
-IOS, object-c, pop up menu
-
-extend to finish Dropdown 
