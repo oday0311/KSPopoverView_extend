@@ -24,17 +24,17 @@
     UIImage *image = [UIImage imageNamed:@"buttonbg~iphone"];
 	_menu = [[KSPopoverView alloc] initWithType:KSPopoverTypeOnOffLabel
 										  image:image
-										  point:CGPointMake(150.0f, 4.0f)];
+										  point:CGPointMake(150.0f, 204.0f)];
 	_menu.delegate = self;
-	_menu.position = KSPopoverPositionBottomCenter;
+	_menu.position = KSPopoverPositionTopCenter;//KSPopoverPositionBottomCenter;
     _menu.offset = 50;
 	
     [self.view addSubview: _menu];
     //AppDelegate*myapp =  (AppDelegate*)[[UIApplication sharedApplication] delegate] ;
     //[myapp.window addSubview:_menu];
     
-	[_menu addButtonWithTitle:@"动态类别1"];
-	[_menu addButtonWithTitle:@"动态类别2"];
+	[_menu addButtonWithTitle:@"KSPopoverPositionTopCenter"];
+	[_menu addButtonWithTitle:@"KSPopoverPositionBottomCenter"];
 	[_menu addButtonWithTitle:@"动态类别3"];
 	[_menu addButtonWithTitle:@"动态类别4"];
 	[_menu addButtonWithTitle:@"动态类别5"];
@@ -45,6 +45,16 @@
            withInfo:(NSDictionary *)info {
     NSLog(@"Pushed %dth button. info:%@", buttonIndex, info);
 	KSPopoverViewButtonBase *button = [view labelAtIndex:buttonIndex];
+    
+    if ([button.text isEqualToString:@"KSPopoverPositionBottomCenter"]) {
+        _menu.position =KSPopoverPositionBottomCenter;
+    }
+    else
+        if([button.text isEqualToString:@"KSPopoverPositionTopCenter"])
+        {
+            _menu.position = KSPopoverPositionTopCenter;
+        }
+    
 	//button.text = @"pressed";
 }
 

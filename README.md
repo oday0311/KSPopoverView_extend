@@ -3,10 +3,11 @@ KSPopoverView_extend
 
 2012-5-17
 
-
-extend to finish Dropdown
+make support to 
+KSPopoverPositionBottomCenter
  
-oday0311@hotmail.com
+ 
+ By oday0311@hotmail.com
 ==========================
 
 *** KSPopoverView ***
